@@ -14,14 +14,13 @@ app.post('/process-video', (req, res)=>{
 
     ffmpeg(inputFilePath).outputOptions("-vf", "scale=-1:360")
     .on("end", () => {
-
+        console.log('Processing finished successfully');
+        res.status(200).send('Processing finished successfully');
     })
     .on("error", (err) => {
         console.error("Error processing video:", err);
         res.status(500).send("Error processing video");
     }).save(outputFilePath); // converting it to 360p
-
-    res.status(200).send('Video processed successfully');
 });
 
 const port = process.env.PORT || 3000;

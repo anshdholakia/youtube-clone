@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: video-processing-service
+    environment:
+      - BACKEND_PORT=${BACKEND_PORT}
+    ports:
+      - "${BACKEND_PORT}:${BACKEND_PORT}"
