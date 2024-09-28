@@ -1,5 +1,5 @@
 {
-  "name": "video-processing-ervice",
+  "name": "video-processing-service",
   "version": "1.0.0",
   "description": "Video processing service",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/storage": "^7.13.0",
     "express": "^4.21.0",
     "fluent-ffmpeg": "^2.1.3"
   },
