@@ -5,8 +5,8 @@ import { raw } from 'express';
 
 const storage = new Storage();
 
-const rawVideoBucket = 'yt-clone-raw-videos';
-const processedVideoBucket = 'yt-clone-processed-videos';
+const rawVideoBucket = 'ad-yt-clone-raw-videos';
+const processedVideoBucket = 'ad-yt-clone-processed-videos';
 
 const localInputDirectory = './raw-videos';
 const localOutputDirectory = './processed-videos';
