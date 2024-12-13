@@ -1,0 +1,39 @@
+{
+  "name": "youtube-web-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "firebase": "^11.0.1",
+    "firebase-tools": "^13.29.0",
+    "next": "14.2.14",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+=======
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.14"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+>>>>>>> 102c2bcc4a7a602030d98a6d3b3c1bf801954c49
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+<<<<<<< HEAD
+    "eslint-config-next": "14.2.14",
+    "typescript": "^5"
+=======
+    "eslint-config-next": "14.2.14"
+>>>>>>> 102c2bcc4a7a602030d98a6d3b3c1bf801954c49
+  }
+}
