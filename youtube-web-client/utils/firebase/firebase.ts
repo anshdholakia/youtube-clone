@@ -1,5 +1,5 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase-admin/app";
+import { initializeApp } from "firebase/app";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User } from "firebase/auth";
 import * as dotenv from 'dotenv';
 import { join } from 'path';
@@ -11,7 +11,7 @@ const apiKey = process.env.API_KEY;
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: apiKey,
+  apiKey: apiKey, // replace it with actual string during local testing
   authDomain: "clone-1b438.firebaseapp.com",
   projectId: "clone-1b438",
   appId: "1:936143624285:web:77d515e069dceade2c95b4",
