@@ -3,6 +3,9 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User } from "firebase/auth";
 import * as dotenv from 'dotenv';
 import { join } from 'path';
+import { getFunctions } from 'firebase/functions';
+
+export const functions = getFunctions();
 
 dotenv.config({ path: join(__dirname, '.env') });
 

@@ -27,6 +27,11 @@
   }
 }
 
+.thumbnail {
+    margin: 10px;
+  }
+  
+
 .main {
   display: flex;
   flex-direction: column;
